@@ -5,6 +5,7 @@ release_name=$(lsb_release -a -u 2>&1 | tr '[:upper:]' '[:lower:]' | grep -E 'co
 sudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser
 sudo add-apt-repository -y ppa:webupd8team/java
 sudo add-apt-repository -y ppa:webupd8team/atom
+sudo add-apt-repository -y "deb https://cli-assets.heroku.com/branches/stable/apt ./"
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
 sudo sh -c 'echo "deb [arch=$(dpkg --print-architecture)] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list'
@@ -36,6 +37,10 @@ sqlitebrowser \
 unetbootin \
 usb-creator-gtk \
 /
+
+curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install -y heroku
 
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
