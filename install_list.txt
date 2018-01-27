@@ -50,8 +50,7 @@ sudo chmod a+rx /usr/local/bin/youtube-dl
 
 wget -qO- https://get.docker.com/ | sh
 
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-sudo apt-get install -y nodejs
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 
 exit #end of automated installs. Things below here must be installed manually
 
