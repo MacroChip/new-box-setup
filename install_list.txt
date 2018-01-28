@@ -21,8 +21,8 @@ xclip \
 oracle-java8-set-default \
 network-manager-openconnect-gnome \
 dconf-editor \
-gitk \
 git \
+gitk \
 tig \
 htop \
 gimp \
