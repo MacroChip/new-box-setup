@@ -68,6 +68,8 @@ chrome addons
 ublock origin
 https everywhere
 rescroller
+postman
+reddit enhancement suite
 https://developer.chrome.com/apps/app_usb#caveats
 
 
@@ -75,6 +77,3 @@ fun/optional
 -------------
 mupen64plus
 virtualbox
-mbuntu-y-icons-v4 \
-mbuntu-y-ithemes-v4 \
-
