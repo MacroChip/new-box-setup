@@ -1,5 +1,3 @@
-exit #in case of accidental execution
-
 release_name=$(lsb_release -a -u 2>&1 | tr '[:upper:]' '[:lower:]' | grep -E 'codename' | cut -d ':' -f 2 | tr -d '[[:space:]]')
 
 sudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser
