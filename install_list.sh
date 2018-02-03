@@ -40,9 +40,9 @@ sudo apt-get install -y heroku
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
 
-wget -qO- https://get.docker.com/ | sh
-
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+
+wget -qO- https://get.docker.com/ | sh
 
 exit #end of automated installs. Things below here must be installed manually
 
