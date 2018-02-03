@@ -19,7 +19,6 @@ xclip \
 oracle-java8-set-default \
 network-manager-openconnect-gnome \
 dconf-editor \
-git \
 gitk \
 tig \
 htop \
