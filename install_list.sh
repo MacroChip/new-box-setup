@@ -24,6 +24,7 @@ inkscape \
 google-chrome-stable \
 curl \
 vim \
+g++ \
 gparted \
 vlc \
 liferea \
