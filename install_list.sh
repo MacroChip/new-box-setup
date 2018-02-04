@@ -44,6 +44,8 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | b
 
 wget -qO- https://get.docker.com/ | sh
 
+sudo usermod -aG docker $USER
+
 exit #end of automated installs. Things below here must be installed manually
 
 #does pip need root?
