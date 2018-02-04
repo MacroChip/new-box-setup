@@ -21,7 +21,6 @@ tig \
 htop \
 gimp \
 inkscape \
-atom \
 google-chrome-stable \
 curl \
 vim \
@@ -55,7 +54,7 @@ pip install virtualenvwrapper
 non-apt
 ---------
 android-studio
-
+vscode
 
 chrome addons
 -------
