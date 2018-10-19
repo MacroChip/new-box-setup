@@ -48,6 +48,8 @@ sudo usermod -aG docker $USER
 
 exit #end of automated installs. Things below here must be installed manually
 
+ctrl+alt+t open terminal
+
 #does pip need root?
 pip install virtualenv
 pip install virtualenvwrapper
