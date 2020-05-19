@@ -31,6 +31,7 @@ liferea \
 links \
 sqlitebrowser \
 unetbootin \
+iotop \
 usb-creator-gtk
 
 curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
