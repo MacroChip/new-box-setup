@@ -3,10 +3,12 @@ sudo add-apt-repository -y ppa:webupd8team/java
 sudo add-apt-repository -y ppa:webupd8team/atom
 sudo add-apt-repository -y ppa:inkscape.dev/stable
 sudo add-apt-repository -y "deb https://cli-assets.heroku.com/branches/stable/apt ./"
+wget -q -O - https://updates.signal.org/desktop/apt/keys.asc | sudo apt-key add -
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
 sudo sh -c 'echo "deb [arch=$(dpkg --print-architecture)] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list'
 sudo sh -c 'echo "deb [arch=$(dpkg --print-architecture)] http://repo.steampowered.com/steam/ precise steam" > /etc/apt/sources.list.d/steam.list'
+echo "deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main" | sudo tee -a /etc/apt/sources.list.d/signal-xenial.list
 
 sudo apt-get update
 
@@ -32,7 +34,8 @@ links \
 sqlitebrowser \
 unetbootin \
 iotop \
-usb-creator-gtk
+usb-creator-gtk \
+signal-desktop
 
 curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
 sudo apt-get update
