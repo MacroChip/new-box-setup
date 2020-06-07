@@ -1,5 +1,4 @@
 sudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser
-sudo add-apt-repository -y ppa:webupd8team/atom
 sudo add-apt-repository -y ppa:inkscape.dev/stable
 sudo add-apt-repository -y "deb https://cli-assets.heroku.com/branches/stable/apt ./"
 wget -q -O - https://updates.signal.org/desktop/apt/keys.asc | sudo apt-key add -
@@ -61,7 +60,7 @@ non-apt
 ---------
 https://adoptopenjdk.net/installation.html#linux-pkg
 android-studio
-vscode
+atom/vscode
 
 chrome addons
 -------
