@@ -1,5 +1,4 @@
 sudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser
-sudo add-apt-repository -y ppa:webupd8team/java
 sudo add-apt-repository -y ppa:webupd8team/atom
 sudo add-apt-repository -y ppa:inkscape.dev/stable
 sudo add-apt-repository -y "deb https://cli-assets.heroku.com/branches/stable/apt ./"
@@ -16,7 +15,6 @@ sudo apt-get update
 sudo apt-get install -y \
 sloccount \
 xclip \
-oracle-java8-set-default \ #TODO accept the license agreement. I think putting a magic file somewhere will do this
 network-manager-openconnect-gnome \
 dconf-editor \
 gitk \
@@ -61,6 +59,7 @@ pip install virtualenvwrapper
 
 non-apt
 ---------
+https://adoptopenjdk.net/installation.html#linux-pkg
 android-studio
 vscode
 
