@@ -5,7 +5,7 @@ sudo add-apt-repository -y ppa:inkscape.dev/stable
 sudo add-apt-repository -y "deb https://cli-assets.heroku.com/branches/stable/apt ./"
 wget -q -O - https://updates.signal.org/desktop/apt/keys.asc | sudo apt-key add -
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+wget -q -O - https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo apt-key add -
 wget -q -O - https://repo.steampowered.com/steam/archive/precise/steam.gpg | sudo apt-key add -
 sudo sh -c 'echo "deb [arch=$(dpkg --print-architecture)] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list'
 sudo sh -c 'echo "deb [arch=$(dpkg --print-architecture)] http://repo.steampowered.com/steam/ precise steam" > /etc/apt/sources.list.d/steam.list'
@@ -77,4 +77,5 @@ https://developer.chrome.com/apps/app_usb#caveats
 fun/optional
 -------------
 mupen64plus
-virtualbox
+virtualbox - deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian <mydist> contrib # where mydist is xenial etc
+steam
