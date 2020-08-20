@@ -78,3 +78,8 @@ fun/optional
 mupen64plus
 virtualbox - deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian <mydist> contrib # where mydist is xenial etc
 steam
+
+windows
+------------
+disable-start-menu-search.reg
+
