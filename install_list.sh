@@ -35,7 +35,7 @@ iotop \
 usb-creator-gtk \
 signal-desktop
 
-curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
+curl -NL https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install -y heroku
 
