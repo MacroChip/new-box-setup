@@ -44,7 +44,7 @@ sudo chmod a+rx /usr/local/bin/youtube-dl
 
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
-wget -qO- https://get.docker.com/ | sh
+wget -qO- https://get.docker.com/ | sudo sh
 
 sudo usermod -aG docker $USER
 
