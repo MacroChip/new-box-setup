@@ -72,6 +72,7 @@ reddit enhancement suite
 https://developer.chrome.com/apps/app_usb#caveats
 facebook container
 chrome://flags/#omnibox-context-menu-show-full-urls
+shortcuts like javascript:(()=>{Array.from(document.querySelectorAll('video'),v=>{v.playbackRate=v.playbackRate+0.25;console.log(v.playbackRate)})})();
 
 fun/optional
 -------------
