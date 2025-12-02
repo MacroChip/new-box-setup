@@ -83,4 +83,5 @@ steam
 windows
 ------------
 disable-start-menu-search.reg
+set monitor refresh rate
 
