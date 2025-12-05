@@ -85,3 +85,6 @@ windows
 disable-start-menu-search.reg
 set monitor refresh rate
 
+all
+------
+set browser to reopen tabs on startup
